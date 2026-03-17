@@ -1,5 +1,3 @@
-# Atividade - Princípios SOLID (LSP, ISP, DIP)
-
 ## Parte 1 - Identificação das Violações
 
 ### ISP (Interface Segregation Principle)
