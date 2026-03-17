@@ -1,17 +1,13 @@
-# Atividade SOLID 
+# 📚 Atividade - Princípios SOLID (LSP, ISP, DIP)
 
-<h5> 1- ISP: 
-  interface Funcionario {
- trabalhar()
- registrarPonto()
- receberSalario()
- gerenciarEquipe()
- escreverCodigo()
-}
-resposta- a interface esta muito grande, assim obrigando as classes implementar métodos desnecessários.
+Projeto com identificação de violações e refatoração aplicando SOLID.
 
-LSP: throw new Error("Gerente não escreve código");
-Quebra a norma esperada da interface
+## ▶️ Como executar
+1. Instale o TypeScript:
+npm install -g typescript
 
-DIP:private gerente: Gerente = new Gerente(); 
-Classe concreta e direta
+2. Compile:
+tsc src/index.ts
+
+3. Execute:
+node src/index.js
